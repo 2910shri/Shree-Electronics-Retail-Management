@@ -1,0 +1,171 @@
+body{
+  margin:0;
+  font-family:Segoe UI;
+  background: linear-gradient(135deg,#0f2027,#203a43,#2c5364);
+  color:white;
+}
+
+/* container */
+
+.container{
+  padding:30px;
+}
+
+/* title */
+
+.title{
+  text-align:center;
+  font-size:38px;
+  margin-bottom:30px;
+}
+
+/* glass card */
+
+.glassCard{
+  background: rgba(255,255,255,0.1);
+  backdrop-filter: blur(10px);
+  border-radius:15px;
+  box-shadow:0 8px 32px rgba(0,0,0,0.3);
+}
+
+/* tabs */
+
+.tabs{
+  display:flex;
+  justify-content:center;
+  gap:20px;
+  margin-bottom:30px;
+}
+
+.tabBtn{
+  padding:12px 30px;
+  border:none;
+  border-radius:30px;
+  cursor:pointer;
+  font-size:16px;
+  transition:0.3s;
+}
+
+.activeTab{
+  background: linear-gradient(45deg,#ff6a00,#ee0979);
+  color:white;
+}
+
+.tabBtn:hover{
+  transform:scale(1.08);
+}
+
+/* product grid */
+
+.productGrid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+  gap:25px;
+}
+
+/* product card */
+
+.productCard{
+  padding:20px;
+  text-align:center;
+  transition:0.4s;
+}
+
+.productCard:hover{
+  transform:translateY(-10px) scale(1.03);
+}
+
+/* image */
+
+.productCard img{
+  width:100%;
+  height:150px;
+  object-fit:contain;
+}
+
+/* price */
+
+.price{
+  font-size:20px;
+  font-weight:bold;
+}
+
+/* status */
+
+.available{
+  color:#00ff9d;
+}
+
+.out{
+  color:#ff4d4d;
+}
+
+/* gradient buttons */
+
+.gradientBtn{
+  border:none;
+  padding:8px 16px;
+  margin:5px;
+  border-radius:20px;
+  cursor:pointer;
+  color:white;
+  background: linear-gradient(45deg,#ff512f,#dd2476);
+  transition:0.3s;
+}
+
+.gradientBtn:hover{
+  transform:scale(1.1);
+  box-shadow:0 5px 15px rgba(0,0,0,0.4);
+}
+
+/* delete */
+
+.deleteBtn{
+  background: linear-gradient(45deg,#ff0000,#b31217);
+}
+
+/* buy */
+
+.buyBtn{
+  background: linear-gradient(45deg,#00b09b,#96c93d);
+}
+
+/* add */
+
+.addBtn{
+  background: linear-gradient(45deg,#396afc,#2948ff);
+}
+
+/* login */
+
+.loginBox{
+  text-align:center;
+  margin-bottom:30px;
+}
+
+input{
+  padding:10px;
+  margin:6px;
+  border-radius:8px;
+  border:none;
+}
+
+/* repair cards */
+
+.repairCard{
+  padding:15px;
+  margin:10px 0;
+  border-radius:10px;
+  background: rgba(255,255,255,0.1);
+}
+
+/* completed button */
+
+.completeBtn{
+  background: linear-gradient(45deg,#00b09b,#96c93d);
+  border:none;
+  padding:6px 12px;
+  border-radius:20px;
+  cursor:pointer;
+  color:white;
+}
